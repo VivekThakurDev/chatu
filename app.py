@@ -6,11 +6,16 @@ import os
 from dotenv import load_dotenv
 
 # Load environment variables from .env file
-load_dotenv(override=True)
+load_dotenv(dotenv_path=".env")
 
 # Initialize the OpenAI client for NVIDIA API
 # Assuming the API key is set in the Nvd_API environment variable
 nvidia_api_key = os.getenv("Nvd_API")
+
+# '''
+# nvidia_api_key = os.getenv("Nvd_API")
+# print("Loaded API:", nvidia_api_key)
+# '''
 
 if not nvidia_api_key:
     st.error("Error: Nvd_API environment variable not found. Please check your .env file.")

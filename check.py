@@ -3,4 +3,5 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-print(os.getenv("Nvd_API"))
+nvidia_api_key = os.getenv("Nvd_API")
+print("Loaded API:", nvidia_api_key)
