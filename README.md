@@ -43,8 +43,8 @@ Follow these instructions to set up the project locally on your machine.
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/next-gen-ai-chat.git
-   cd next-gen-ai-chat
+   git clone https://github.com/VivekThakurDev/chatu.git
+   cd chatu
    ```
 
 2. **Create a virtual environment (Recommended):**
@@ -100,7 +100,7 @@ The app will automatically open in your default browser at `http://localhost:850
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome! 
-Feel free to check [issues page](https://github.com/yourusername/next-gen-ai-chat/issues).
+Feel free to check [issues page](https://github.com/VivekThakurDev/chatu/issues).
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
